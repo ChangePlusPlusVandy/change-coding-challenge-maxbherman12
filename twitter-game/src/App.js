@@ -55,7 +55,10 @@ class App extends React.Component{
     }
     else{
       if(id === selectionID){
-        await this.setState({numCorrect: this.state.numCorrect+1})
+        await this.setState({
+          numCorrect: this.state.numCorrect+1,
+          numRemaining: this.state.numRemaining - 1
+        })
         alert(`Congrats. Your score was ${this.state.numCorrect + 1}/25. Click the restart button to play again!`)
       }
       else{
