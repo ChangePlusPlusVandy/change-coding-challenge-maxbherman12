@@ -1,0 +1,27 @@
+.app{
+    background: yellowgreen;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.app h1{
+    font-size: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

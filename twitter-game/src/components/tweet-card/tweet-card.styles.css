@@ -1,0 +1,38 @@
+.tweet-card{
+    width: 600px;
+    height: 400px;
+    border: black solid 2px;
+    background: rgb(200,200,200);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+
+.top-third{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 60px;
+    height: auto;
+}
+
+.question-num{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.tweet-container{
+    padding: 10% 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 30px;
+}
